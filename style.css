@@ -18,7 +18,7 @@ body {
     padding-right: 15px;
 }
 
-.row {
+.row, .column {
     margin-right: -15px;
     margin-left: -15px;
     display: flex;
@@ -28,6 +28,23 @@ body {
 [class*='col-'] {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.button{
+    width: 120px;
+    height: 35px;
+    background: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-style: "Quattrocento Sans", sans-serif;
+    border: 2px white solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button:hover{
+    border-color: #23b7a4;
+    background-color: #23b7a4;
 }
 
 .logo {
@@ -46,7 +63,7 @@ body {
 }
 
 .menu li{
-    border: 1px #1d2126 solid;
+    border: 2px #1d2126 solid;
     padding: 0px 10px;
     box-sizing: border-box;
 }
@@ -72,7 +89,7 @@ body {
     margin: 0 15px;
     display: flex;
     justify-content: center;
-    border: 1px #a4aead solid;
+    border: 2px #a4aead solid;
     border-radius: 5px;
     align-items: center;
     height: 35px;
@@ -99,6 +116,34 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #1d2126;
+}
+
+.main-1{
+    background-image: url("images/main-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.salutation-massege{
+    color: #ffffff;
+    font-style: "Quattrocento Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.salutation-text{
+    margin: 20px 0;
+    color: #a4aead;
+    font-size: 15px;
+}
+
+.salutation-form{
+    display: flex;
+    gap: 10px;
 }
 
 @media(min-width:768px) {
