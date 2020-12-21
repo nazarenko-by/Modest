@@ -146,6 +146,32 @@ body {
     gap: 10px;
 }
 
+.footer{
+    background-color: #3a454d;
+}
+
+.footer-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icons button{
+    background-color: #3a454d;
+    width: 25px;
+}
+
+.footer-icons img{
+    height: 30px;
+}
+
 @media(min-width:768px) {
     .conteiner {
         width: 768px;
@@ -212,6 +238,15 @@ body {
         gap: 0;
         justify-content: space-between;
     }
+    
+    .footer-text{
+        justify-content: flex-start;
+    }
+
+    .footer-icons{
+        justify-content: flex-end;
+        margin: 10px 0;
+    }
 
 }
 
@@ -271,5 +306,13 @@ body {
         justify-content: space-between;
     }
 
+    .footer-text{
+        justify-content: flex-start;
+        font-size: 14px;
+    }
+
+    .footer-icons img{
+        height: 40px;
+    }
 
 }
