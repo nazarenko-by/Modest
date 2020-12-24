@@ -144,10 +144,14 @@ body {
     font-size: 25px;
 }
 
-.salutation-text{
+.text{
     margin: 20px 0;
     color: #a4aead;
     font-size: 15px;
+}
+
+.bold{
+    font-weight: 700;
 }
 
 .salutation-form{
@@ -240,7 +244,7 @@ body {
     }
 
     .main-1{
-        background-size: 100% 500px;
+        background-size: auto 500px;
         height: 500px;
     }
 
@@ -278,6 +282,11 @@ body {
     .col-md-4{
         flex: 0 0 33.333%;
         max-width: 33.333%;
+    }
+
+    .col-md-5{
+        flex: 0 0 41.6666%;
+        max-width: 41.6666%;
     }
     
     .col-md-6{
@@ -338,7 +347,7 @@ body {
     }
 
     .main-1{
-        background-size: 100% 660px;
+        background-size: auto 660px;
         height: 660px;
     }
 
