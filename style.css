@@ -127,8 +127,8 @@ body {
     background-color: #1d2126;
 }
 
-.main-1{
-    background-image: url("images/main-1.png");
+.banner{
+    background-image: url("images/banner.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 400px;
@@ -193,12 +193,12 @@ body {
     margin-top: 10px;
 }
 
-.main-2-icons button{
+.about-icons button{
     margin-bottom: 20px;
     background-color: #c8cdd0;
 }
 
-.main-2-icons button:hover{
+.about-icons button:hover{
     background-color: #d0d5d9;
 }
 
@@ -289,7 +289,7 @@ body {
         font-size: 15px;
     }
 
-    .main-1{
+    .banner{
         background-size: auto 500px;
         height: 500px;
     }
@@ -299,17 +299,17 @@ body {
         justify-content: space-between;
     }
 
-    .main-2{
+    .about{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .main-2 .row{
+    .about .row{
         align-items: flex-start;
     }
 
-    .main-2-text .text:first-child{
+    .about-text .text:first-child{
         margin-top: 0px;
     }
     
@@ -431,7 +431,7 @@ body {
         margin-right: 10px;
     }
 
-    .main-1{
+    .banner{
         background-size: auto 660px;
         height: 660px;
     }
@@ -448,7 +448,7 @@ body {
         gap: 15px;
     }
 
-    .main-2{
+    .about{
         height: 610px;
     }
 
