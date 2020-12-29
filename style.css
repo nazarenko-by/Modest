@@ -168,11 +168,12 @@ body {
     text-transform: uppercase;
     padding-left: 5px;
     font-family: "Quattrocento Sans", sans-serif;
-    margin:40px 0;
+    margin-bottom:40px;
 }
 
 .about{
     border-bottom: 1px solid #dde1e4 ;
+    padding: 40px 0;
 }
 
 .about-text .text:first-child{
@@ -209,6 +210,10 @@ body {
 
 .about-icons button:hover{
     background-color: #d0d5d9;
+}
+
+.out-team{
+    padding: 40px 0;
 }
 
 .team-member>img{
@@ -369,13 +374,9 @@ color: white;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-    }
-
-    .about{
-        height: 500px;
-        display: flex;
-        align-items: center;
         border-bottom: 1px solid #dde1e4 ;
+        align-items: center;
+        padding:70px 0;
     }
 
     .about .row{
@@ -407,9 +408,9 @@ color: white;
     }
 
     .out-team{
-        height: 550px;
         display: flex;
         align-items: center;
+        padding: 70px 0;
     }
 
     .out-team .row{
@@ -528,15 +529,12 @@ color: white;
     }
 
     .about{
-        height: 610px;
-        display: flex;
-        align-items: center;
-        border-bottom: 1px solid #dde1e4 ;
+        padding: 80px 0;
     }
 
     .title{
         font-size: 36px;
-        margin:60px 0;
+        margin-bottom:60px;
     }
 
     .benefits-number{
@@ -550,8 +548,7 @@ color: white;
     }
 
     .out-team{
-        height: 650px;
-        display: flex;
+        padding: 80px 0;
         align-items: center;
     }
 
