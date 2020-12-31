@@ -265,12 +265,20 @@ body {
     background-color: #3a454d;
 }
 
+.team-member:hover>img{
+    filter: brightness(115%);
+}
+
 .team-member:hover .member-name, .team-member:hover .member-prof{
 color: white;
 }
 
 .team-member:hover form{
     display: flex;
+}
+
+.team-member form button:hover{
+    background-color: #4e5a62;
 }
 
 .footer{
