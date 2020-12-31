@@ -21,7 +21,8 @@ body {
     padding-right: 15px;
 }
 
-.row, .column {
+.row,
+.column {
     margin-right: -15px;
     margin-left: -15px;
     display: flex;
@@ -33,16 +34,16 @@ body {
     padding-right: 15px;
 }
 
-.col-xs-12{
+.col-xs-12 {
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-.dark{
+.dark {
     background-color: #3a454d;
 }
 
-.button{
+.button {
     width: 120px;
     height: 35px;
     background: none;
@@ -54,7 +55,7 @@ body {
     font-size: 15px;
 }
 
-.button:hover{
+.button:hover {
     border-color: #23b7a4;
     background-color: #23b7a4;
 }
@@ -74,7 +75,7 @@ body {
     gap: 20px;
 }
 
-.menu li{
+.menu li {
     border: 2px #1d2126 solid;
     padding: 0px 10px;
     box-sizing: border-box;
@@ -97,7 +98,7 @@ body {
     text-transform: uppercase;
 }
 
-.hide-xs{
+.hide-xs {
     display: none;
 }
 
@@ -132,7 +133,7 @@ body {
     background-color: #1d2126;
 }
 
-.banner{
+.banner {
     background-image: url("images/banner.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -142,54 +143,54 @@ body {
     align-items: center;
 }
 
-.salutation-massege{
+.salutation-massege {
     color: #ffffff;
     font-style: "Quattrocento Sans", sans-serif;
     text-transform: uppercase;
     font-size: 25px;
 }
 
-.text{
+.text {
     margin: 20px 0;
     color: #a4aead;
     font-size: 15px;
     line-height: 26px;
 }
 
-.bold{
+.bold {
     font-weight: 700;
 }
 
-.salutation-form{
+.salutation-form {
     display: flex;
     gap: 10px;
 }
 
-.title{
+.title {
     font-size: 25px;
     color: #292f36;
     border-left: 5px solid #e1e6ea;
     text-transform: uppercase;
     padding-left: 5px;
     font-family: "Quattrocento Sans", sans-serif;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
-.dark-title{
+.dark-title {
     color: white;
     border-color: #4e5a62;
 }
 
-.about{
-    border-bottom: 1px solid #dde1e4 ;
+.about {
+    border-bottom: 1px solid #dde1e4;
     padding: 40px 0;
 }
 
-.about-text .text:first-child{
+.about-text .text:first-child {
     margin-top: 0px;
 }
 
-.benefits-number{
+.benefits-number {
     width: 40px;
     height: 40px;
     background-color: #23b7a4;
@@ -200,7 +201,7 @@ body {
     margin-bottom: 10px;
 }
 
-.benefits-title{
+.benefits-title {
     text-transform: uppercase;
     font-weight: 700;
     color: #292f36;
@@ -208,39 +209,39 @@ body {
     font-style: "Quattrocento Sans", sans-serif;
 }
 
-.benefits-info .text{
+.benefits-info .text {
     margin-top: 10px;
 }
 
-.about-icons button{
+.about-icons button {
     margin-bottom: 20px;
     background-color: #c8cdd0;
 }
 
-.about-icons button:hover{
+.about-icons button:hover {
     background-color: #d0d5d9;
 }
 
-.out-team{
+.out-team {
     padding: 40px 0;
 }
 
-.team-member>img{
+.team-member>img {
     width: 100%;
 }
 
-.team-member{
+.team-member {
     position: relative;
     z-index: 10;
     background-color: #e1e6ea;
     margin-bottom: 15px;
 }
 
-.member-info{
+.member-info {
     padding: 20px;
 }
 
-.member-name{
+.member-name {
     text-transform: uppercase;
     color: #292f36;
     font-family: "Quattrocento Sans", sans-serif;
@@ -248,63 +249,64 @@ body {
     font-size: 16px;
 }
 
-.member-prof{
+.member-prof {
     line-height: 26px;
     color: #8d8f92;
     font-size: 14px;
 }
 
-.team-member form{
+.team-member form {
     position: absolute;
-    top:calc(50% - 60px);
-    left:calc(50% - 76px);
+    top: calc(50% - 60px);
+    left: calc(50% - 76px);
     display: flex;
     justify-content: space-around;
     gap: 1px;
     display: none;
 }
 
-.team-member button{
+.team-member button {
     width: 50px;
     height: 50px;
     background-color: #3a454d;
 }
 
-.team-member:hover{
+.team-member:hover {
     background-color: #3a454d;
 }
 
-.team-member:hover>img{
+.team-member:hover>img {
     filter: brightness(115%);
 }
 
-.team-member:hover .member-name, .team-member:hover .member-prof{
-color: white;
+.team-member:hover .member-name,
+.team-member:hover .member-prof {
+    color: white;
 }
 
-.team-member:hover form{
+.team-member:hover form {
     display: flex;
 }
 
-.team-member form button:hover{
+.team-member form button:hover {
     background-color: #4e5a62;
 }
 
-.work{
+.work {
     padding: 40px 0;
 }
 
-.work-img{
+.work-img {
     padding: 5px 0;
     position: relative;
     display: flex;
 }
 
-.work-img img{
+.work-img img {
     width: 100%;
 }
 
-.work-img-text{
+.work-img-text {
     color: white;
     font-size: 18px;
     padding: 21px;
@@ -318,15 +320,15 @@ color: white;
     font-family: "Quattrocento Sans", sans-serif;
 }
 
-.work-img:hover .work-img-text{
+.work-img:hover .work-img-text {
     display: block;
 }
 
-.work-img:hover>img{
-    filter:opacity(65%)
+.work-img:hover>img {
+    filter: opacity(65%)
 }
 
-.work-img button{
+.work-img button {
     position: absolute;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0%);
@@ -337,94 +339,94 @@ color: white;
     display: none;
 }
 
-.work-img button img{
+.work-img button img {
     margin-top: -60px;
     width: 60px;
     height: 60px;
 }
 
-.work-img:hover button{
-display: flex;
+.work-img:hover button {
+    display: flex;
 }
 
-.work-form{
+.work-form {
     padding-top: 35px;
     display: flex;
     justify-content: center;
 }
 
-.work-form .button{
+.work-form .button {
     width: 180px;
 }
 
-.service{
+.service {
     padding: 40px 0 80px;
 }
 
-.service .title{
+.service .title {
     margin-bottom: 20px;
 }
 
-.service-item{
-padding: 20px 0;
+.service-item {
+    padding: 20px 0;
 }
 
-.service-image{
-width: 100%;
-display: flex;
-justify-content: center;
-margin-bottom: 35px;
+.service-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
 }
 
-.service-title{
+.service-title {
     display: flex;
     justify-content: center;
 }
 
-.service-text{
+.service-text {
     text-align: center;
 }
 
-.features{
+.features {
     padding: 40px 0 60px;
 }
 
-.features .title{
+.features .title {
     margin: 0;
 }
 
-.features-item img{
+.features-item img {
     width: 100%;
     margin-bottom: 45px;
     margin-top: 40px;
 }
 
-.features .benefits-title{
+.features .benefits-title {
     color: white;
 }
 
-.features .text{
+.features .text {
     color: #dcdfe1;
 }
 
-.contact{
+.contact {
     padding: 35px 0 55px;
 }
 
-.contact .title{
+.contact .title {
     margin-bottom: 0;
 }
 
-.map{
+.map {
     height: 150px;
     margin: 30px 0;
 }
 
-.footer{
+.footer {
     background-color: #3a454d;
 }
 
-.footer-text{
+.footer-text {
     color: white;
     display: flex;
     justify-content: center;
@@ -432,17 +434,17 @@ margin-bottom: 35px;
     font-size: 10px;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     justify-content: center;
 }
 
-.footer-icons button{
+.footer-icons button {
     background-color: #3a454d;
     width: 25px;
 }
 
-.footer-icons img{
+.footer-icons img {
     height: 30px;
 }
 
@@ -451,350 +453,351 @@ margin-bottom: 35px;
         width: 720px;
     }
 
-    .col-sm-1{
+    .col-sm-1 {
         flex: 0 0 16.6667%;
         max-width: 16.6667%;
     }
 
-    .col-sm-2{
+    .col-sm-2 {
         flex: 0 0 33.3334%;
         max-width: 33.3334%;
     }
 
-    .col-sm-3{
+    .col-sm-3 {
         flex: 0 0 50%;
         max-width: 50%;
     }
 
-    .col-sm-4{
+    .col-sm-4 {
         flex: 0 0 66.6667%;
         max-width: 66.6667%;
     }
 
-    .row{
+    .row {
         flex-direction: row;
         align-items: center;
     }
 
-    .button{
+    .button {
         width: 75px;
         font-size: 10px;
         flex-grow: 1;
     }
 
-    .text{
+    .text {
         font-size: 16px;
     }
-    .menu{
+
+    .menu {
         gap: 5px;
     }
 
-    .menu a{
+    .menu a {
         font-size: 15px;
     }
 
-    .hide-xs{
+    .hide-xs {
         display: flex;
     }
 
-    .search{
+    .search {
         margin-left: 0;
     }
 
-    .search input{
+    .search input {
         margin-left: 5px;
         width: 75%;
         font-size: 15px;
     }
 
-    .banner{
+    .banner {
         background-size: auto 500px;
         height: 500px;
     }
 
-    .salutation-form{
+    .salutation-form {
         gap: 5px;
         justify-content: space-between;
     }
 
-    .about{
+    .about {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        border-bottom: 1px solid #dde1e4 ;
+        border-bottom: 1px solid #dde1e4;
         align-items: center;
-        padding:70px 0;
+        padding: 70px 0;
     }
 
-    .about .row{
+    .about .row {
         align-items: flex-start;
     }
-    
-    .benefits{
+
+    .benefits {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
         flex-wrap: wrap
     }
 
-    .benefits-number{
+    .benefits-number {
         flex: 0 0 20%;
         max-width: 20%;
         flex-basis: 40px;
         margin-right: 15px;
     }
 
-    .benefits-info{
+    .benefits-info {
         flex: 0 0 80%;
         max-width: 80%;
         display: flex;
         flex-direction: column;
     }
 
-    .benefits-title{
+    .benefits-title {
         font-size: 18px;
     }
 
-    .out-team{
+    .out-team {
         display: flex;
         align-items: center;
         padding: 70px 0;
     }
 
-    .out-team .row{
+    .out-team .row {
         flex-wrap: wrap;
     }
 
-    .work{
+    .work {
         padding: 70px 0 60px;
     }
 
-    .work .row{
+    .work .row {
         flex-wrap: wrap;
     }
 
-    .work-img{
+    .work-img {
         padding: 15px 0;
     }
 
-    .work-img-text{
+    .work-img-text {
         bottom: 15px;
     }
 
-    .work-form .button{
+    .work-form .button {
         flex-grow: unset;
     }
 
-    .work-form{
-        padding-top: 45px ;
+    .work-form {
+        padding-top: 45px;
     }
 
-    .service .row{
+    .service .row {
         flex-wrap: wrap;
     }
 
-    .service{
+    .service {
         padding: 70px 0 100px;
     }
 
-    .service-item{
+    .service-item {
         padding: 30px 0;
-        }
+    }
 
-    .features{
+    .features {
         padding: 70px 0 100px;
     }
 
-    .features-item img{
+    .features-item img {
         margin-top: 50px;
     }
 
-    .contact{
+    .contact {
         padding: 60px 0 100px;
     }
-    
-    .map{
+
+    .map {
         height: 250px;
         margin: 45px 0;
     }
-    
-    .footer-text{
+
+    .footer-text {
         justify-content: flex-start;
     }
 
-    .footer-icons{
+    .footer-icons {
         justify-content: flex-end;
         margin: 10px 0;
     }
 
 }
 
- @media(min-width:1024px){
-    .conteiner{
+@media(min-width:1024px) {
+    .conteiner {
         width: 1004px;
     }
 
-    .col-md-2{
+    .col-md-2 {
         flex: 0 0 16.6667%;
         max-width: 16.6667%;
     }
 
-    .col-md-3{
+    .col-md-3 {
         flex: 0 0 25%;
         max-width: 25%;
     }
-    
-    .col-md-4{
+
+    .col-md-4 {
         flex: 0 0 33.333%;
         max-width: 33.333%;
     }
 
-    .col-md-5{
+    .col-md-5 {
         flex: 0 0 41.6666%;
         max-width: 41.6666%;
     }
-    
-    .col-md-6{
+
+    .col-md-6 {
         flex: 0 0 50%;
         max-width: 50%;
     }
 
-    .col-md-7{
+    .col-md-7 {
         flex: 0 0 58.343%;
         max-width: 58.343%;
     }
-    
-    .col-md-8{
+
+    .col-md-8 {
         flex: 0 0 66.6667%;
         max-width: 66.6667%;
     }
-    
 
-    .salutation-form{
+
+    .salutation-form {
         gap: 10px;
     }
-} 
+}
 
 @media(min-width:1200px) {
-    .conteiner{
+    .conteiner {
         width: 1170px;
     }
 
-    .button{
+    .button {
         font-size: 14px;
         height: 45px;
     }
 
-    .logo{
+    .logo {
         justify-content: start;
     }
 
-    .menu{
+    .menu {
         justify-content: center;
         gap: 10px;
     }
 
-    .menu a{
+    .menu a {
         font-size: 14px;
     }
 
-    .search{
+    .search {
         margin: 0;
         height: 30px;
     }
 
-    .search input{
+    .search input {
         font-size: 14px;
     }
 
-    .search_btn{
+    .search_btn {
         height: 25px;
         margin-right: 10px;
     }
 
-    .banner{
+    .banner {
         background-size: auto 660px;
         height: 660px;
     }
 
-    .salutation-massege{
+    .salutation-massege {
         font-size: 36px;
     }
 
-    .salutation-text{
+    .salutation-text {
         font-size: 16px;
     }
 
-    .salutation-form{
+    .salutation-form {
         gap: 15px;
     }
 
-    .about{
+    .about {
         padding: 80px 0;
     }
 
-    .title{
+    .title {
         font-size: 36px;
-        margin-bottom:60px;
+        margin-bottom: 60px;
     }
 
-    .benefits-number{
+    .benefits-number {
         height: 50px;
         flex-basis: 50px;
     }
 
-    .benefits-info{
+    .benefits-info {
         flex: 0 0 85%;
         max-width: 85%;
     }
 
-    .out-team{
+    .out-team {
         padding: 80px 0;
         align-items: center;
     }
 
-    .work{
+    .work {
         padding-top: 80px;
     }
 
-    .service{
+    .service {
         padding: 80px 0 120px;
     }
 
-    .service .title{
+    .service .title {
         margin-bottom: 45px;
     }
 
-    .service-item{
+    .service-item {
         padding: 45px 0;
     }
-    
-    .features{
+
+    .features {
         padding: 85px 0 120px;
     }
 
-    .features-item img{
+    .features-item img {
         margin-top: 65px;
         margin-bottom: 55px;
     }
 
-    .contact{
+    .contact {
         padding: 70px 0 90px;
     }
-    
-    .map{
+
+    .map {
         height: 350px;
         margin: 60px 0;
     }
 
-    .contact .text{
+    .contact .text {
         margin: 40px 0;
     }
 
-    .footer-text{
+    .footer-text {
         font-size: 14px;
     }
 
-    .footer-icons img{
+    .footer-icons img {
         height: 40px;
     }
 
