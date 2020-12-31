@@ -385,6 +385,28 @@ margin-bottom: 35px;
     text-align: center;
 }
 
+.features{
+    padding: 40px 0 60px;
+}
+
+.features .title{
+    margin: 0;
+}
+
+.features-item img{
+    width: 100%;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+.features .benefits-title{
+    color: white;
+}
+
+.features .text{
+    color: #dcdfe1;
+}
+
 .footer{
     background-color: #3a454d;
 }
@@ -564,6 +586,14 @@ margin-bottom: 35px;
     .service-item{
         padding: 30px 0;
         }
+
+    .features{
+        padding: 70px 0 100px;
+    }
+
+    .features-item img{
+        margin-top: 50px;
+    }
     
     .footer-text{
         justify-content: flex-start;
@@ -716,6 +746,14 @@ margin-bottom: 35px;
         padding: 45px 0;
     }
     
+    .features{
+        padding: 85px 0 120px;
+    }
+
+    .features-item img{
+        margin-top: 65px;
+        margin-bottom: 55px;
+    }
 
     .footer-text{
         font-size: 14px;
