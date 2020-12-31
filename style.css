@@ -315,6 +315,7 @@ color: white;
     width: 100%;
     bottom: 5px;
     display: none;
+    font-family: "Quattrocento Sans", sans-serif;
 }
 
 .work-img:hover .work-img-text{
@@ -354,6 +355,34 @@ display: flex;
 
 .work-form .button{
     width: 180px;
+}
+
+.service{
+    padding: 40px 0 80px;
+}
+
+.service .title{
+    margin-bottom: 20px;
+}
+
+.service-item{
+padding: 20px 0;
+}
+
+.service-image{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-bottom: 35px;
+}
+
+.service-title{
+    display: flex;
+    justify-content: center;
+}
+
+.service-text{
+    text-align: center;
 }
 
 .footer{
@@ -523,6 +552,18 @@ display: flex;
     .work-form{
         padding-top: 45px ;
     }
+
+    .service .row{
+        flex-wrap: wrap;
+    }
+
+    .service{
+        padding: 70px 0 100px;
+    }
+
+    .service-item{
+        padding: 30px 0;
+        }
     
     .footer-text{
         justify-content: flex-start;
@@ -662,6 +703,19 @@ display: flex;
     .work{
         padding-top: 80px;
     }
+
+    .service{
+        padding: 80px 0 120px;
+    }
+
+    .service .title{
+        margin-bottom: 45px;
+    }
+
+    .service-item{
+        padding: 45px 0;
+    }
+    
 
     .footer-text{
         font-size: 14px;
