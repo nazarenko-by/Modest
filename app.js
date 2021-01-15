@@ -17,13 +17,13 @@ function closeModal(){
 }
 
 function showModalByScroll(){
-    if (!ticking && window.scrollY > document.body.offsetHeight/2) {
+    if (window.scrollY > document.body.offsetHeight/2) {
         openModal();
         ticking = true;
     }
 }
 
-window.addEventListener('scroll', showModalByScroll)
+window.addEventListener('scroll', showModalByScroll, {once:true})
 
 closeBtn.addEventListener("click", closeModal)
 
@@ -32,3 +32,4 @@ modal.addEventListener("click", function(e){
         closeModal();
     }
 })
+
