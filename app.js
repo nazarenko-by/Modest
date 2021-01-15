@@ -23,7 +23,6 @@ function showModalByScroll(){
     }
 }
 
-console.log(document.body.offsetHeight/2 + "+")
 window.addEventListener('scroll', showModalByScroll)
 
 closeBtn.addEventListener("click", closeModal)
