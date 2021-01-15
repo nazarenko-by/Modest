@@ -16,13 +16,15 @@ function closeModal(){
     modal.classList.remove("show")
 }
 
-console.log(document.body.offsetHeight/2 + "+")
-window.addEventListener('scroll', function(){
+function showModalByScroll(){
     if (!ticking && window.scrollY > document.body.offsetHeight/2) {
         openModal();
         ticking = true;
     }
-  });
+}
+
+console.log(document.body.offsetHeight/2 + "+")
+window.addEventListener('scroll', showModalByScroll)
 
 closeBtn.addEventListener("click", closeModal)
 
