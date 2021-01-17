@@ -18,7 +18,7 @@ function closeModal(){
 
 function showModalByScroll(){
     if (window.scrollY > document.body.offsetHeight/2) {
-        //openModal();
+        openModal();
         window.removeEventListener("scroll",showModalByScroll)
     }
 }
