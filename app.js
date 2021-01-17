@@ -18,7 +18,7 @@ function closeModal(){
 
 function showModalByScroll(){
     if (window.scrollY > document.body.offsetHeight/2) {
-        openModal();
+        //openModal();
         window.removeEventListener("scroll",showModalByScroll)
     }
 }
@@ -46,4 +46,17 @@ mobileMenu.addEventListener("click", function(){
     }
 })
 
+//contact us
+let contactUsBtn = document.querySelector("#contact-us");
+let contactUsModal = document.querySelector(".contact-modal-form");
 
+function openContactUsModal(){
+    contactUsModal.classList.toggle("hide");
+    if(!contactUsModal.classList.contains("hide")){
+        contactUsBtn.innerHTML = "Close";
+    } else{
+        contactUsBtn.innerHTML = "contact us";
+    }
+}
+
+contactUsBtn.addEventListener("click", openContactUsModal);
