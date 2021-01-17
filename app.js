@@ -19,10 +19,11 @@ function closeModal(){
 function showModalByScroll(){
     if (window.scrollY > document.body.offsetHeight/2) {
         openModal();
+        window.removeEventListener("scroll",showModalByScroll)
     }
 }
 
-window.addEventListener('scroll', showModalByScroll, {once:true})
+window.addEventListener('scroll', showModalByScroll)
 
 closeBtn.addEventListener("click", closeModal)
 
